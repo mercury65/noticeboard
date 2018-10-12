@@ -16,7 +16,8 @@ class AdminLoginController extends Controller
      */
     public function showLoginForm()
     {
-        return view('auth.admin-login');
+        $user = "";
+        return view('auth.admin-login')->with('user', $user);
     }
 
     public function __construct()

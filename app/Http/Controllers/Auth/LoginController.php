@@ -29,7 +29,8 @@ class LoginController extends Controller
 
     public function showLoginForm()
     {
-        return view('auth.login');
+		$user = "";
+        return view('auth.login')->with('user', $user);
     }
 
     use AuthenticatesUsers;
