@@ -15,7 +15,8 @@
                     @endif
 
                     You are logged in!
-                    just changing santee
+                    just changing santee 
+                    rainbow
                 </div>
             </div>
         </div>
